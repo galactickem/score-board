@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 575px;
+    height: 385px;
+
+    background: #1B244A;
+}
+
+h3 {
+    /* board-title-home */
+position: absolute;
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+}
+
+#guest {
+left: 340px;
+}
+
+#bsquare {
+position: absolute;
+width: 155px;
+height: 120px;
+left: 82px;
+top: 150px;
+
+background: #080001;
+border-radius: 5px;
+
+/* home-points-text */
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+
+}
+
+#bsquare2 {
+position: absolute;
+width: 155px;
+height: 120px;
+left: 337px;
+top: 150px;
+
+background: #080001;
+border-radius: 5px;
+
+/* home-points-text */
+
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+
+}
+
+button {
+    /* Rectangle 4 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 82px;
+top: 275px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+
+background: #1B244A;
+
+}
+
+#button_two {
+left: 136px;
+}
+
+#button_three {
+left: 192px;
+}
+
+#button_oneg {
+left: 337px;
+}
+
+#button_twog {
+left: 391px;
+}
+
+#button_threeg {
+left: 447px;
+}
+
+#reset {
+  top: 330px;
+  left: 250px;
+  width: 70px;
+  height: 45px;
+}
